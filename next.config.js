@@ -1,9 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  experimental: {
-    optimizeCss: false, // disables lightningcss
+  // ✅ Force Webpack instead of Turbopack
+  webpack: (config) => {
+    return config;
   },
+
+  // ✅ Disable LightningCSS entirely
+  experimental: {
+    optimizeCss: false,
+  },
+
+  // ✅ Firebase/Vercel compatibility
   images: {
     unoptimized: true,
   },

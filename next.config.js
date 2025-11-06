@@ -1,16 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ✅ Force Webpack instead of Turbopack
-  webpack: (config) => {
-    return config;
-  },
-
-  // ✅ Disable LightningCSS entirely
+  // ✅ Tell Next.js explicitly to use Webpack
   experimental: {
-    optimizeCss: false,
+    turbo: false,
+    optimizeCss: false, // disable lightningcss
   },
 
-  // ✅ Firebase/Vercel compatibility
   images: {
     unoptimized: true,
   },

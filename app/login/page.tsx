@@ -87,7 +87,7 @@ export default function LoginPage() {
           </div>
 
           <div className="absolute z-10 px-20 text-black -mt-150">
-            <h1 className="text-4xl font-bold mb-4">WholeYou Health</h1>
+            <h1 className="text-4xl font-bold mb-4">The WholeYou Health</h1>
             <p className="text-lg text-black-100 max-w-md mb-6">
               Your trusted partner for online consultations, digital
               prescriptions, and personalized health management — anytime,

@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen bg-gradient-to-b from-teal-50 to-white text-gray-900">
       {/* Header */}
       <header className="flex justify-between items-center px-8 py-4 shadow-sm bg-white sticky top-0 z-50">
-        <h1 className="text-2xl font-bold text-teal-600">WholeYou Health</h1>
+        <h1 className="text-2xl font-bold text-teal-600">The WholeYou Health</h1>
         <nav className="space-x-6">
           <Link href="#services" className="hover:text-teal-600">
             Services

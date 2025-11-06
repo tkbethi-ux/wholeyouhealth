@@ -107,7 +107,7 @@ export default function Dashboard() {
 
       {/* Footer */}
       <footer className="text-center text-gray-500 text-sm py-8">
-        © {new Date().getFullYear()} WholeYou Health. Built with ❤️ using Next.js + Firebase
+        © {new Date().getFullYear()} The WholeYou Health. Built with ❤️ For you
       </footer>
     </main>
   );

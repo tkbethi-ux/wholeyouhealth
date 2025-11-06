@@ -4,20 +4,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen bg-gradient-to-b from-blue-50 to-white text-gray-900">
+    <main className="flex flex-col min-h-screen bg-gradient-to-b from-teal-50 to-white text-gray-900">
       {/* Header */}
       <header className="flex justify-between items-center px-8 py-4 shadow-sm bg-white sticky top-0 z-50">
-        <h1 className="text-2xl font-bold text-blue-600">WholeYou Health</h1>
+        <h1 className="text-2xl font-bold text-teal-600">WholeYou Health</h1>
         <nav className="space-x-6">
-          <Link href="#services" className="hover:text-blue-600">
+          <Link href="#services" className="hover:text-teal-600">
             Services
           </Link>
-          <Link href="#team" className="hover:text-blue-600">
+          <Link href="#team" className="hover:text-teal-600">
             Our Doctors
           </Link>
           <Link
             href="/login"
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+            className="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700"
           >
             Login
           </Link>
@@ -34,7 +34,7 @@ export default function Home() {
 
         {/* Text content */}
         <div className="relative z-10 max-w-3xl">
-          <h2 className="text-5xl font-bold mb-4 leading-tight text-blue-700 drop-shadow-sm">
+          <h2 className="text-5xl font-bold mb-4 leading-tight text-teal-700 drop-shadow-sm">
             Your Health, Our Priority 💙
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mb-8 mx-auto">
@@ -44,13 +44,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/login"
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition"
+              className="bg-teal-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-teal-700 transition"
             >
               Book Appointment
             </Link>
             <Link
               href="/learn"
-              className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg text-lg hover:bg-blue-50 transition"
+              className="border border-teal-600 text-teal-600 px-8 py-3 rounded-lg text-lg hover:bg-teal-50 transition"
             >
               Learn More
             </Link>
@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* Services Offered Section */}
       <section id="services" className="py-20 px-8 bg-white text-center">
-        <h3 className="text-3xl font-semibold mb-4 text-blue-700">Services Offered</h3>
+        <h3 className="text-3xl font-semibold mb-4 text-teal-700">Services Offered</h3>
         <p className="text-gray-600 mb-12 max-w-3xl mx-auto">
           Explore a range of healthcare solutions — from telemedicine to personalized care — designed to meet your health needs conveniently and safely.
         </p>
@@ -105,11 +105,11 @@ export default function Home() {
               key={s.title}
               className="bg-gray-50 rounded-2xl shadow-md hover:shadow-lg transition p-6 text-left"
             >
-              <h4 className="text-xl font-semibold text-blue-700 mb-2">{s.title}</h4>
+              <h4 className="text-xl font-semibold text-teal-700 mb-2">{s.title}</h4>
               <p className="text-gray-600 mb-4 text-sm">{s.desc}</p>
               <Link
                 href="/services"
-                className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition"
+                className="inline-block bg-teal-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-teal-700 transition"
               >
                 Know More →
               </Link>
@@ -131,36 +131,36 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Doctor 1 */}
           <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-6">
-            <div className="bg-blue-100 rounded-lg h-64 mb-4 flex items-center justify-center">
+            <div className="bg-teal-100 rounded-lg h-64 mb-4 flex items-center justify-center">
               <img
                 src="/images/thanmayie.jpg"
                 alt="Thanmayie Bethi"
-                className="object-cover object-center"
+                className="w-full h-full object-cover object-top"
               />
             </div>
-            <h4 className="text-lg font-semibold text-blue-700">
+            <h4 className="text-lg font-semibold text-teal-700">
               Thanmayie Bethi, FNP-BC
             </h4>
             <p className="text-sm text-gray-600 mt-2">
               Family Nurse Practitioner who began practicing in 2020. Interested in a variety of clinical areas, including Family Practice, Pediatrics, Women's Health, and Acute Care/Urgent Care
             </p>
-            <p className="text-blue-600 mt-3 font-medium cursor-pointer hover:underline">
+            <p className="text-teal-600 mt-3 font-medium cursor-pointer hover:underline">
               Meet the medical team →
             </p>
           </div>
 
           {/* Doctor 2 */}
           <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-6">
-            <div className="bg-blue-100 rounded-lg h-64 mb-4 flex items-center justify-center">
+            <div className="bg-teal-100 rounded-lg h-64 mb-4 flex items-center justify-center">
               <span className="text-gray-400">[ Doctor Photo ]</span>
             </div>
-            <h4 className="text-lg font-semibold text-blue-700">
+            <h4 className="text-lg font-semibold text-teal-700">
               TBD
             </h4>
             <p className="text-sm text-gray-600 mt-2">
               TBD
             </p>
-            <p className="text-blue-600 mt-3 font-medium cursor-pointer hover:underline">
+            <p className="text-teal-600 mt-3 font-medium cursor-pointer hover:underline">
               Meet the medical team →
             </p>
           </div>
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-700 text-white text-center py-6 mt-16">
+      <footer className="bg-teal-700 text-white text-center py-6 mt-16">
         <p className="text-sm">
           © {new Date().getFullYear()} WholeYou Health. All rights reserved.
         </p>

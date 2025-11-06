@@ -26,10 +26,10 @@ export default function Dashboard() {
   if (!user) return <div className="p-10 text-center text-gray-500">Loading...</div>;
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-white text-gray-900">
+    <main className="min-h-screen bg-gradient-to-br from-teal-50 to-white text-gray-900">
       {/* Header */}
       <header className="flex justify-between items-center px-8 py-4 bg-white shadow-sm">
-        <h1 className="text-2xl font-bold text-blue-600">WholeYou Health</h1>
+        <h1 className="text-2xl font-bold text-teal-600">WholeYou Health</h1>
         <button
           onClick={logout}
           className="text-sm bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition"
@@ -46,13 +46,13 @@ export default function Dashboard() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Card 1: Book Appointment */}
           <div className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-blue-600 mb-2">Book Appointment</h3>
+            <h3 className="text-xl font-bold text-teal-600 mb-2">Book Appointment</h3>
             <p className="text-gray-600 mb-4">
               Schedule an online consultation with a doctor that fits your time.
             </p>
             <Link
               href="/book"
-              className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              className="inline-block bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition"
             >
               Book Now
             </Link>
@@ -60,7 +60,7 @@ export default function Dashboard() {
 
           {/* Card 2: Upcoming Appointment */}
           <div className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-blue-600 mb-2">Upcoming Appointments</h3>
+            <h3 className="text-xl font-bold text-teal-600 mb-2">Upcoming Appointments</h3>
             <p className="text-gray-600 mb-4">
               No upcoming appointments yet. Book one today!
             </p>
@@ -71,7 +71,7 @@ export default function Dashboard() {
 
           {/* Card 3: Health Records */}
           <div className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-blue-600 mb-2">Health Records</h3>
+            <h3 className="text-xl font-bold text-teal-600 mb-2">Health Records</h3>
             <p className="text-gray-600 mb-4">
               Store and view your prescriptions and previous reports.
             </p>
@@ -88,17 +88,17 @@ export default function Dashboard() {
 
         <div className="flex flex-col md:flex-row gap-8 justify-center">
           <div className="flex-1 bg-white rounded-xl shadow-md p-6 text-center">
-            <h4 className="text-blue-600 font-bold mb-2">Consultations</h4>
+            <h4 className="text-teal-600 font-bold mb-2">Consultations</h4>
             <p className="text-4xl font-bold">3</p>
             <p className="text-sm text-gray-500 mt-1">This month</p>
           </div>
           <div className="flex-1 bg-white rounded-xl shadow-md p-6 text-center">
-            <h4 className="text-blue-600 font-bold mb-2">Avg. Session Time</h4>
+            <h4 className="text-teal-600 font-bold mb-2">Avg. Session Time</h4>
             <p className="text-4xl font-bold">28m</p>
             <p className="text-sm text-gray-500 mt-1">Across all doctors</p>
           </div>
           <div className="flex-1 bg-white rounded-xl shadow-md p-6 text-center">
-            <h4 className="text-blue-600 font-bold mb-2">Satisfaction</h4>
+            <h4 className="text-teal-600 font-bold mb-2">Satisfaction</h4>
             <p className="text-4xl font-bold text-green-500">94%</p>
             <p className="text-sm text-gray-500 mt-1">Patient feedback</p>
           </div>

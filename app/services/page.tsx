@@ -68,29 +68,29 @@ export default function ServicesPage() {
        "Rehydrate, rejuvenate, and recover with our IV Hydration Therapy — a fast, effective way to restore vital fluids, vitamins, and electrolytes directly into your bloodstream.",
       details:
         "Boost energy, improve immune function, and relieve fatigue or hangover symptoms. Treatments may include vitamin C, B-complex, magnesium, and other nutrients based on your needs. Whether you're recovering from illness, dehydration, travel, or stress, IV Hydration offers quick relief and replenishment.",
-      image: "/images/prescriptions1.jpg",
+      image: "/images/hydration.jpg",
     },
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <main className="min-h-screen bg-gradient-to-b from-teal-50 to-white">
       {/* ---------- HEADER ---------- */}
       <header className="w-full bg-white shadow-md sticky top-0 z-20">
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-16">
           {/* Logo / Title */}
-          <Link href="/" className="text-2xl font-bold text-blue-700">
+          <Link href="/" className="text-2xl font-bold text-teal-700">
             WholeYou Health
           </Link>
 
           {/* Navigation */}
           <nav className="flex space-x-6 text-gray-700 font-medium">
-            <Link href="/" className="hover:text-blue-600 transition">
+            <Link href="/" className="hover:text-teal-600 transition">
               Home
             </Link>
-            <Link href="/services" className="text-blue-600 font-semibold">
+            <Link href="/services" className="text-teal-600 font-semibold">
               Services
             </Link>
-            <Link href="/login" className="hover:text-blue-600 transition">
+            <Link href="/login" className="hover:text-teal-600 transition">
               Login
             </Link>
           </nav>
@@ -99,7 +99,7 @@ export default function ServicesPage() {
 
       {/* ---------- PAGE HEADER ---------- */}
       <section className="text-center py-16 px-6 md:px-20">
-        <h1 className="text-4xl font-bold text-blue-700 mb-4">Our Services</h1>
+        <h1 className="text-4xl font-bold text-teal-700 mb-4">Our Services</h1>
         <p className="text-gray-700 max-w-3xl mx-auto">
           At <strong>WholeYou Health</strong>, we provide accessible, holistic, and
           evidence-based healthcare — fully online and designed to fit your life.
@@ -123,12 +123,12 @@ export default function ServicesPage() {
               />
             </div>
             <div className="p-6 text-left">
-              <h2 className="text-2xl font-semibold text-blue-700 mb-2">
+              <h2 className="text-2xl font-semibold text-teal-700 mb-2">
                 {service.title}
               </h2>
               <p className="text-gray-700 mb-3">{service.description}</p>
               <p className="text-gray-600 text-sm mb-4">{service.details}</p>
-              <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+              <button className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition">
                 Book Now →
               </button>
             </div>

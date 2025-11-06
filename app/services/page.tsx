@@ -12,7 +12,7 @@ export default function ServicesPage() {
         "Consult with certified healthcare professionals from the comfort of your home. Our virtual visits provide personalized care using secure video and chat — no waiting rooms, no delays.",
       details:
         "We handle a wide range of health concerns including cold & flu, infections, skin issues, and ongoing medication management. Appointments are available 7 days a week.",
-      image: "/images/login2.jpg",
+      image: "/images/login.jpg",
     },
     {
       title: "Primary Care",
